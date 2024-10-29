@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 28px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    width: 500vw;
+    height: 100vh;
+}
+
+section {
+    flex: 0 0 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home {
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+}
+
+.about {
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+}
+
+.skill {
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+}
+
+.education {
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+}
+
+.contact {
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+}
+
+.white-box {
+    width: 1300px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    top: 50%;
+    transform: translate(20px, -370px);
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: #555;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.text-head {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: bold;
+    transform: translate(430px, 15px);
+}
+
+.text-home {
+    color: #fff;
+    font-size: 1.0em;
+    transform: translate(10px, 60px);
+}
+
+.text-head2 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: bold;
+    transform: translate(490px, 15px);
+}
+
+.text-am {
+    color: #fff;
+    font-size: 1.2em;
+    transform: translate(10px, 120px);
+}
+
+.pic-am {
+    width: 230px;
+    height: auto;
+    transform: translate(950px, -160px);
+    z-index: 15;
+    position: relative;
+}
+
+.text-head3 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: bold;
+    transform: translate(560px, 15px);
+}
+
+.pic-bo1 {
+    width: 300px;
+    height: auto;
+    transform: translate(20px, 60px);
+    z-index: 15;
+    position: relative;
+}
+
+.pic-bo2 {
+    width: 300px;
+    height: auto;
+    transform: translate(150px, 60px);
+    z-index: 15;
+    position: relative;
+}
+
+.pic-bo3 {
+    width: 300px;
+    height: auto;
+    transform: translate(300px, 60px);
+    z-index: 15;
+    position: relative;
+}
+
+.text-head4 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: bold;
+    transform: translate(520px, 15px);
+}
+
+.pic-bo1b {
+    width: 400px;
+    height: auto;
+    transform: translate(10px, 60px);
+    z-index: 15;
+    position: relative;
+}
+
+.pic-bo2b {
+    width: 400px;
+    height: auto;
+    transform: translate(10px, 60px);
+    z-index: 15;
+    position: relative;
+}
+
+.pic-bo3b {
+    width: 400px;
+    height: auto;
+    transform: translate(10px, 60px);
+    z-index: 15;
+    position: relative;
+}
+
+.text-head5 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: bold;
+    transform: translate(535px, 15px);
+}
+
+.text-ct {
+    color: #fff;
+    font-size: 2.0em;
+    transform: translate(200px, 80px);
+}
+
+.pic-mail {
+    width: 180px;
+    height: auto;
+    transform: translate(520px, 120px);
+    z-index: 15;
+    position: relative;
+}
